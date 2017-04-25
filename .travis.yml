@@ -8,7 +8,7 @@ env:
   global:
     - DISPLAY=:99.0
     - CXX=g++-4.8
-    - CMAKE_CXX_FLAGS=-fPCI
+    - CFLAGS=-fPCI
 install: true
 addons:
   apt:
