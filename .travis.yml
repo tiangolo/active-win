@@ -8,7 +8,8 @@ env:
   global:
     - DISPLAY=:99.0
     - CXX=g++-4.8
-    - CXXFLAGS=-fPCI
+    - CFLAGS="$CFLAGS -fPIC"
+    - CXXFLAGS="$CXXFLAGS -fPIC"
 install: true
 addons:
   apt:
