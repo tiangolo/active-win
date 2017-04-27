@@ -2,6 +2,9 @@
 
 Get the title / window id / app name / process ID of the [active window](https://en.wikipedia.org/wiki/Active_window) *(macOS, Linux and Windows)*
 
+## Notice
+
+This package is here for development and testing purposes. Please use the [official version](https://github.com/sindresorhus/active-win).
 
 ## Install
 
