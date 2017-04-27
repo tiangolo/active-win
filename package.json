@@ -1,9 +1,12 @@
 {
-  "name": "active-win",
-  "version": "1.0.1",
+  "name": "@tiangolo/active-win",
+  "version": "1.0.2",
   "description": "Get the title / window id / app name / process ID of the active window (macOS, Linux & Windows)",
   "license": "MIT",
-  "repository": "sindresorhus/active-win",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tiangolo/active-win.git#develop"
+  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
